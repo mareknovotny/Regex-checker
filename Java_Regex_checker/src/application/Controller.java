@@ -68,7 +68,7 @@ public class Controller {
 	public void optionsFunc() {
 		if(options == false) { // options
 			options = true;
-			optionsButton.setText("OPTIONS");
+			optionsButton.setText("MANUAL");
 			regexField.setOpacity(0);
 			regexField.setDisable(true);
 			az.setDisable(false);
@@ -81,7 +81,7 @@ public class Controller {
 		    spaces.setOpacity(1);
 		} else { // manual
 			options = false;
-			optionsButton.setText("MANUAL");
+			optionsButton.setText("OPTIONS");
 			regexField.setOpacity(1);
 			regexField.setDisable(false);
 			az.setDisable(true);
