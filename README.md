@@ -1,4 +1,4 @@
-# Java Regular expression (REGEX) checker.
+# Java Regular Expression (REGEX) checker.
 A GUI Regex checker created with Java SE 8 with JavaFX using FXML.
 
 ---------------------------------------------------------------------
