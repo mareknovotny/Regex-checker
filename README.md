@@ -23,7 +23,7 @@ Regex Search queries:
 - ([a-zA-Z0-9]) : Returns any lower and upper case characters and numbers found in the text area.
 - ([a-zA-Z0-9_ ]) : Returns any lower and upper case characters, numbers and spaces found in the text area.
 
-![Alt text](/screenshots/manual.png?raw=true "Optional Title")
+![Alt text](/screenshots/manual.png?raw=true "manual search")
 
 Option buttons:
 
@@ -32,7 +32,7 @@ Option buttons:
 - '09': Returns any numerical characters found in the text area.
 - 'spaces': Returns any spaces found in the text area.
 
-![Alt text](/screenshots/options.png?raw=true "Optional Title")
+![Alt text](/screenshots/options.png?raw=true "search with options")
 
 OS specific issues:
 
