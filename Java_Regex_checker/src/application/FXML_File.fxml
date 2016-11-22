@@ -24,7 +24,7 @@
          </children>
       </Pane>
       <TextArea fx:id="textField" layoutX="11.0" layoutY="47.0" prefHeight="408.0" prefWidth="980.0" promptText="ENTER TEXT OR LOAD A FILE" wrapText="true" AnchorPane.bottomAnchor="550.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="47.0" />
-      <Pane layoutX="1.0" layoutY="885.0" prefHeight="115.0" prefWidth="1000.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <Pane layoutX="1.0" layoutY="885.0" prefHeight="115.0" prefWidth="1000.0" style="-fx-background-color: grey;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="890.0">
          <children>
             <Button fx:id="fileButton" layoutX="466.0" layoutY="63.0" mnemonicParsing="false" onAction="#fileFunc" prefHeight="27.0" prefWidth="175.0" text="OPEN FILE" />
             <Button fx:id="checkButton" layoutX="281.0" layoutY="63.0" mnemonicParsing="false" onAction="#checkFunc" prefHeight="27.0" prefWidth="175.0" text="CHECK" />
@@ -42,6 +42,6 @@
             <TextField fx:id="regexField" alignment="CENTER" layoutX="281.0" layoutY="20.0" onAction="#optionsFunc" prefHeight="27.0" prefWidth="360.0" promptText="ENTER REGEX" />
          </children>
       </Pane>
-      <TextArea fx:id="matchingTextField" editable="false" layoutX="11.0" layoutY="467.0" prefHeight="408.0" prefWidth="980.0" wrapText="true" />
+      <TextArea fx:id="matchingTextField" editable="false" layoutX="11.0" layoutY="467.0" prefHeight="408.0" prefWidth="980.0" wrapText="true" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="467.0" />
    </children>
 </AnchorPane>
